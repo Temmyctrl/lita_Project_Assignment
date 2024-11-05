@@ -6,14 +6,17 @@ i will need to explore sales data to uncover key insights such as top-selling pr
 performance, and monthly sales trends. The goal is to produce an interactive Power BI 
 dashboard that highlights these findings.
 ### Data Analysis
-the following process where used to analyse the data
+---
+The following process where used to analyse the data
 - Excel
 - Sql
 - Power Bi
 
 ### Excel
 ---
-The Data was cleaned and anal
+The Data was cleaned and analysed to enhance to the data to give a detailed information on the data.
+what i did was to find the totalsales data regarding each product (shirt, shoes, jacket, Gloves and Hat)
+we analysed the product using the pivot tables and also included a chart for each tables.
 
 
 Instructions:
