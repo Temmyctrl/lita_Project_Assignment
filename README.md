@@ -22,7 +22,9 @@ what i did was to find the totalsales data regarding each product (shirt, shoes,
 According to the questions we were told to Perform an initial exploration of the sales data. Use pivot tables to summarize 
 total sales by product, region, and month.'
 The total sales of each product was analysed, Region and also the monthly report of each product.this is clearing stated in the diagram attached below.
+
 ![image](https://github.com/user-attachments/assets/bab1add2-a443-4b2f-9129-3256ff41783
+
 The pivot graph for each analyses is found below:
 ![image](https://github.com/user-attachments/assets/6589cde7-dfd5-4547-9c8a-25dd3ff677cf)
 
@@ -31,7 +33,9 @@ Graphical Representation of Sum of total Sales Against Product
 ![image](https://github.com/user-attachments/assets/ede9d1a0-4203-4caa-afac-b6a64610cee8)
 
 Graphical Representation of the sum of total sales against region
+
 ![image](https://github.com/user-attachments/assets/6a2f77c4-9dd9-4c89-9bac-75a44dfe301c)
+
 Graphical Representation of the sum of total sales against order date
 
 
