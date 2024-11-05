@@ -12,7 +12,7 @@ The following process where used to analyse the data
 - Sql
 - Power Bi
 
-##Excel
+## Excel
 ---
 The Data was cleaned and analysed to enhance to the data to give a detailed information on the data.
 what i did was to find the totalsales data regarding each product (shirt, shoes, jacket, Gloves and Hat)
