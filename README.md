@@ -16,7 +16,14 @@ The following process where used to analyse the data
 ---
 The Data was cleaned and analysed to enhance to the data to give a detailed information on the data.
 what i did was to find the totalsales data regarding each product (shirt, shoes, jacket, Gloves and Hat)
-we analysed the product using the pivot tables and also included a chart for each tables.
+
+### Pivot table
+---
+According to the questions we were told to Perform an initial exploration of the sales data. Use pivot tables to summarize 
+total sales by product, region, and month.
+![image](https://github.com/user-attachments/assets/f8e56a27-8f38-47dd-aba9-09db40e67151)
+
+
 
 
 Instructions:
