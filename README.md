@@ -57,47 +57,6 @@ Graphical Representation of the sum of total sales against order date
 ```SUMIF(D4:D50003,D4,H4:H50003) = west (# 2,450,000)
 ```SUMIF(D5:D50004,D5,H5:H50004)= East (# 1,512,500)
 
-## Structured query Language
----
-```Create database lita_Project1
-
-Select *from [dbo].[Sales data _project]
---------retrieve the total sales for each product categories-----
-Select PRODUCT,sum (total_sales) as product_total_sales from [dbo].[Sales data _project]
-group by PRODUCT
-select PRODUCT, sum (quantity)as Quantity_revenue From [dbo].[Sales data _project]
-Group by PRODUCT
-
------Find the number of sales transaction in each region-----
-Select region,count (customer_id) as sales_by_region from [dbo].[Sales data _project]
-group by region
------- find the highest selling product by total sales value-----
-select PRODUCT,SUM(total_sales) as Sales_by _region from[dbo].[Sales data _project]
-group by product
---------calculate total revenue per product------------
-select PRODUCT,Sum(total_sales) as Product_total_sales from [dbo].[Sales data _project]
-group by product
----------------calculate monthly sales totals for the current year--------------
-select orderdate, sum(total_sales) as totalsales from [dbo].[Sales data _project]
-where orderdate >='2024-01-01'
-group by orderdate
-
---------find the top 5 costumer by total purchase Amount-------
-select customer_id ,sum (total_sales) as totalsales from [dbo].[Sales data _project]
-group by Customer_Id
-order by totalsales desc
--------calculate the percentage of total sales cotributed by each region-----
-select Region, Sum (Total_sales) as regionalsales,
-(Sum (Total_sales) / CAST ((select sum(Total_sales) From [dbo].[Sales data _project])
-As Decimal(10, 2)) * 100) AS Salespercetage
-From [dbo].[Sales data _project]
-group by region
-
-----------identify products with no sales in the last quarter--------
-select distinct product from[dbo].[Sales data _project]
-where Product not in (select Product from [dbo].[Sales data _project]
-where OrderDate >= DATEADD ( quarter, -1, getdate()))
-
 
 Hint – You need to load the dataset into your SQL Server environment to write and 
 validate your queries.
@@ -114,3 +73,6 @@ o identify products with no sales in the last quarter.
 o Create a dashboard that visualizes the insights found in Excel and SQL. The 
 dashboard should include a sales overview, top-performing products, and 
 regional breakdowns
+
+### structured Querylanguage
+
