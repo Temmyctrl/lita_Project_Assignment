@@ -23,7 +23,7 @@ According to the questions we were told to Perform an initial exploration of the
 total sales by product, region, and month.'
 The total sales of each product was analysed, Region and also the monthly report of each product.this is clearing stated in the diagram attached below.
 
-![image](https://github.com/user-attachments/assets/bab1add2-a443-4b2f-9129-3256ff41783
+![image](https://github.com/user-attachments/assets/28df454e-a386-4cca-899b-da994ca7d11f)
 
 The pivot graph for each analyses is found below:
 ![image](https://github.com/user-attachments/assets/6589cde7-dfd5-4547-9c8a-25dd3ff677cf)
