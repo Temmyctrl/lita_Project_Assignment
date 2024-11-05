@@ -40,12 +40,11 @@ Graphical Representation of the sum of total sales against region
 Graphical Representation of the sum of total sales against order date
 
 ### calculate metrics such as average sales per product and total revenue by region.
-
-AVERAGEIF(C3:C50002,C3,H3:H50002)
-AVERAGEIF(C4:C50003,C4,H4:H50003)
-AVERAGEIF(C5:C50004,C5,H5:H50004)
-AVERAGEIF(C6:C50005,C6,H6:H50005)
-AVERAGEIF(C7:C50006,C7,H7:H50006)
+'''AVERAGEIF(C3:C50002,C3,H3:H50002)
+'''AVERAGEIF(C4:C50003,C4,H4:H50003)
+'''AVERAGEIF(C5:C50004,C5,H5:H50004)
+'''AVERAGEIF(C6:C50005,C6,H6:H50005)
+'''AVERAGEIF(C7:C50006,C7,H7:H50006)
 
 
 
