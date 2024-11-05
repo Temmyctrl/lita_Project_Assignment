@@ -26,6 +26,7 @@ The total sales of each product was analysed, Region and also the monthly report
 ![image](https://github.com/user-attachments/assets/28df454e-a386-4cca-899b-da994ca7d11f)
 
 The pivot graph for each analyses is found below:
+
 ![image](https://github.com/user-attachments/assets/6589cde7-dfd5-4547-9c8a-25dd3ff677cf)
 
 Graphical Representation of Sum of total Sales Against Product 
@@ -38,6 +39,8 @@ Graphical Representation of the sum of total sales against region
 
 Graphical Representation of the sum of total sales against order date
 
+### calculate metrics such as average sales per product and total revenue by region.
+```Averageif(C2:C50001,C2,H2:H50001)
 
 
 
