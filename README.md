@@ -39,6 +39,10 @@ Graphical Representation of the sum of total sales against region
 
 Graphical Representation of the sum of total sales against order date
 
+### pivot table
+![image](https://github.com/user-attachments/assets/763c8f07-1eb2-4fc5-8fbf-ba14cd56e9c8)
+
+
 ### calculate metrics such as average sales per product and total revenue by region.
 ---
 ### Average sales for each product
@@ -99,7 +103,4 @@ group by region
 select distinct product from[dbo].[Sales data _project]
 where Product not in (select Product from [dbo].[Sales data _project]
 where OrderDate >= DATEADD ( quarter, -1, getdate()))
-
-Pivot table for the Sales Data
-![image](https://github.com/user-attachments/assets/e86f7b16-68fc-4c24-9e58-618dacc3357d)
 
