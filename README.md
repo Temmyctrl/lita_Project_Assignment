@@ -59,7 +59,7 @@ Graphical Representation of the sum of total sales against order date
 
 
 ### structured Querylanguage
- Structured query Language
+ 
 ---
 ```Create database lita_Project1
 
