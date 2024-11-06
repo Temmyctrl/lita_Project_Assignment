@@ -39,7 +39,7 @@ Graphical Representation of the sum of total sales against region
 
 Graphical Representation of the sum of total sales against order date
 
-- microsoft excel [Download here] [https://docs.google.com/spreadsheets/d/1_FI8-POawtOQTOZnNUR2hfewNkmbNTMRjomc7QbK7tc/edit?gid=776224025#gid=776224025]
+- microsoft excel [Download here][https://docs.google.com/spreadsheets/d/1_FI8-POawtOQTOZnNUR2hfewNkmbNTMRjomc7QbK7tc/edit?gid=776224025#gid=776224025]
 
 ### pivot table
 ![image](https://github.com/user-attachments/assets/763c8f07-1eb2-4fc5-8fbf-ba14cd56e9c8)
